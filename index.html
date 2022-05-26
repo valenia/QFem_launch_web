@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<!--
-	App by FreeHTML5.co
-	Twitter: http://twitter.com/fh5co
-	URL: http://freehtml5.co
--->
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Qfem - Anvil Group</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FreeHTML5.co" />
+	<meta name="description" content="Launch web for QFem? Anvil Group app as FP final project." />
+	<meta name="keywords" content="mobile app, fp, final project, friends, activities, have fun, group" />
+	<meta name="author" content="Anvil Group" />
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -34,6 +29,10 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+	<link rel = "icon" href = 
+	"./img/favicon.png" 
+			type = "image/x-icon">
+
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -49,208 +48,250 @@
 
 	<div id="fh5co-hero-wrapper">
 		<nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
-			<a class="navbar-brand" href="">App</a>
+			<a class="navbar-brand" href="">QFem?</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-items-center ml-auto mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					<li class="nav-item">
+						<a class="nav-link" href="#" onclick="$('#modules').goTo();return false;">Modules</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" onclick="$('#fh5co-features').goTo();return false;">Features</a>
+						<a class="nav-link" href="#"  onclick="$('#screens').goTo();return false;">Screens</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" onclick="$('#fh5co-reviews').goTo();return false;">Reviews</a>
+						<a class="nav-link" href="#" onclick="$('#technologies').goTo();return false;">Technologies</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#"  onclick="$('#fh5co-download').goTo();return false;">Download</a>
+						<a class="nav-link" href="#"  onclick="$('#work-counter').goTo();return false;">Dedication</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  onclick="$('#conclusions').goTo();return false;">Conclusions</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"  onclick="$('#team').goTo();return false;">Team</a>
 					</li>
 				</ul>
-				<div class="social-icons-header">
-					<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
-					<a href="https://freehtml5.co"><i class="fab fa-instagram"></i></a>
-					<a href="https://www.twitter.com/fh5co"><i class="fab fa-twitter"></i></a>
-				</div>
+
 			</div>
 		</nav>
 
 		<div class="container fh5co-hero-inner">
-			<h1 class="animated fadeIn wow" data-wow-delay="0.4s">A Free HTML5 App Template Built with Bootstrap 4</h1>
-			<p class="animated fadeIn wow" data-wow-delay="0.67s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptates, aliquid soluta distinctio dolorum tenetur. </p>
-			<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">Download</button>
-			<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">Features</button>
+			<h1 class="animated fadeIn wow" data-wow-delay="0.4s">Best organization for better plans</h1>
+			<p class="animated fadeIn wow" data-wow-delay="0.67s">The last thing you want to do when it's time to have fun in a group is to waste time and energy because of a bad organisation.<span style="font-style: italic;"> QFem?</span>  app helps you organise all aspects of group activities, thanks to a modular app approach. </p>
 			<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/phone-image.png" alt="Smartphone">
 		</div>
-
-
 	</div> <!-- first section wrapper -->
 
 
 	<!-- ==========================================================================================================
-													 ADVANTAGES
+										           MODULAR ITEMS
 		 ========================================================================================================== -->
 
-	<div class="fh5co-advantages-outer">
-		<div class="container">
-			<h1 class="second-title"><span class="span-perfect">Perfect</span> <span class="span-features">Features</span></h1>
-			<small>Only necessary</small>
-
-			<div class="row fh5co-advantages-grid-columns wow animated fadeIn" data-wow-delay="0.36s">
-
-				<div class="col-sm-4">
-					<img class="grid-image" src="img/icon-1.png" alt="Icon-1">
-					<h1 class="grid-title">Usability</h1>
-					<p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.</p>
+	<div id="modules" class="section fh5co-advantages-outer">
+		<div class="container-counter">
+			<h1 class="second-title"><span class="span-perfect">Modular</span> <span class="span-features">Features</span></h1>
+			<small>Simply but usefull</small>
+			<div class="counter-container">
+				<div class="counter">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16" style="margin-bottom: 2%;">
+						<path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+						<path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+						<path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+						<path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+					</svg>
+					<h4>Expenses management</h4>
+					<small>Manage group expenditure effectively</small>
 				</div>
-
-				<div class="col-sm-4">
-					<img class="grid-image" src="img/icon-2.png" alt="Icon-2">
-					<h1 class="grid-title">Parallax Effect</h1>
-					<p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.</p>
+				<div class="counter">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100" fill="currentColor" class="bi bi-easel2" viewBox="0 0 16 16" style="margin-bottom: 2%;">
+						<path fill-rule="evenodd" d="M8 0a.5.5 0 0 1 .447.276L8.81 1h4.69A1.5 1.5 0 0 1 15 2.5V11h.5a.5.5 0 0 1 0 1h-2.86l.845 3.379a.5.5 0 0 1-.97.242L12.11 14H3.89l-.405 1.621a.5.5 0 0 1-.97-.242L3.36 12H.5a.5.5 0 0 1 0-1H1V2.5A1.5 1.5 0 0 1 2.5 1h4.691l.362-.724A.5.5 0 0 1 8 0ZM2 11h12V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5V11Zm9.61 1H4.39l-.25 1h7.72l-.25-1Z"/>
+					</svg>
+					<h4>Groupal board</h4>
+					<small>Publish usefull information for the group</small>
 				</div>
-
-				<div class="col-sm-4">
-					<img class="grid-image" src="img/icon-3.png" alt="Icon-3">
-					<h1 class="grid-title">Unlimited Colors</h1>
-					<p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.</p>
+				<div class="counter">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100" fill="currentColor" class="bi bi-emoji-sunglasses" viewBox="0 0 16 16" style="margin-bottom: 2%;">
+						<path d="M4.968 9.75a.5.5 0 1 0-.866.5A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75zM7 5.116V5a1 1 0 0 0-1-1H3.28a1 1 0 0 0-.97 1.243l.311 1.242A2 2 0 0 0 4.561 8H5a2 2 0 0 0 1.994-1.839A2.99 2.99 0 0 1 8 6c.393 0 .74.064 1.006.161A2 2 0 0 0 11 8h.438a2 2 0 0 0 1.94-1.515l.311-1.242A1 1 0 0 0 12.72 4H10a1 1 0 0 0-1 1v.116A4.22 4.22 0 0 0 8 5c-.35 0-.69.04-1 .116z"/>
+						<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-1 0A7 7 0 1 0 1 8a7 7 0 0 0 14 0z"/>
+					</svg>
+					<h4>Ask the group</h4>
+					<small>Listen to the group so that everybody feels part of it</small>
 				</div>
+				<div class="counter">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16" style="margin-bottom: 2%;">
+						<path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+						<path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+					</svg>
+					<h4>Organise your events</h4>
+					<small>Always keep in mind when you have scheduled activities</small>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<!-- ==========================================================================================================
+													  SCREENS
+		 ========================================================================================================== -->
+
+	<div id="screens" class="section">
+		<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
+			<h1>INTUITIVE NAVIGATION</h1>
+			<small>Modular is the way</small>
+			<div class="container fh5co-slider-inner">
+
+				<div class="owl-carousel owl-theme">
+					<div class="item"><img src="img/iphone.png" alt=""></div>
+					<div class="item"><img src="img/smartphone-1.png" alt=""></div>
+					<div class="item"><img src="img/smartphone-2.png" alt=""></div>
+					<div class="item"><img src="img/smartphone-3.png" alt=""></div>
+					<div class="item"><img src="img/smartphone-4.png" alt=""></div>
+					<div class="item"><img src="img/smartphone-5.png" alt=""></div>
+				</div>
 
 			</div>
 		</div>
 	</div>
 
-
 	<!-- ==========================================================================================================
-													  SLIDER
-		 ========================================================================================================== -->
+												TECHNOLOGIES
+	========================================================================================================== -->
 
-	<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-		<h1>SIMPLE WIDGETS</h1>
-		<small>Drag and Drop</small>
-		<div class="container fh5co-slider-inner">
-
-			<div class="owl-carousel owl-theme">
-
-				<div class="item"><img src="img/smartphone-2.png" alt=""></div>
-				<div class="item"><img src="img/smartphone-2.png" alt=""></div>
-				<div class="item"><img src="img/iphone.png" alt=""></div>
-				<div class="item"><img src="img/smartphone-2.png" alt=""></div>
-
-
+	<div id="technologies" class="section">
+		<div class="container-counter">
+			<h1 class="heading">TECHNOLOGIES</h1>
+			<div class="technologies-container">
+				<div class="techItem">
+					<img src="./img/logos/react_native.svg" alt="react-native-logo" width="150">
+				</div>
+				<div class="techItem">
+					<img src="./img/logos/strapi.svg" alt="strapi-logo" width="150">
+				</div>
+				<div class="techItem">
+					<img src="./img/logos/mongodb.svg" alt="mongodb-logo" width="150">
+				</div>
+				<div class="techItem">
+					<img src="./img/logos/aws.svg" alt="aws-logo" width="150">
+				</div>
+				<div class="techItem">
+					<img src="./img/logos/git.svg" alt="git-logo" width="150">
+				</div>
+				<div class="techItem">
+					<img src="./img/logos/github.svg" alt="github-logo" width="150">
+				</div>
+				<div class="techItem">
+					<img src="./img/logos/expo.svg" alt="expo-logo" width="150">
+				</div>
+				<div class="techItem">
+					<img src="./img/logos/heroku.svg" alt="heroku-logo" width="150">
+				</div>
 			</div>
-
 		</div>
 	</div>
 
+	<!-- ==========================================================================================================
+												COUNTER
+	========================================================================================================== -->
+
+	<div id="work-counter" class="section" onscroll="counterAnimated()">
+		<div class="container-counter">
+			<h1 class="heading">WORK COUNTER</h1>
+			<div class="counter-container">
+				<div class="counter">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100" fill="currentColor" class="bi bi-columns-gap" viewBox="0 0 16 16">
+					<path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/>
+				</svg>
+				<div><h3 data-target="62" class="count" style="display: inline-block;">0</h3><h3 style="display: inline-block;">h</h3></div>
+				<h6>Project planning</h6>
+				</div>
+				<div class="counter">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+					<path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+				</svg>
+				<div><h3 data-target="45" class="count" style="display: inline-block;">0</h3><h3 style="display: inline-block;">h</h3></div>
+				<h6>Data architecture</h6>
+				</div>
+				<div class="counter">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+					<path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+				</svg>
+				<div><h3 data-target="75" class="count" style="display: inline-block;">0</h3><h3 style="display: inline-block;">h</h3></div>
+				<h6>Logics</h6>
+				</div>
+				<div class="counter">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100" fill="currentColor" class="bi bi-brush" viewBox="0 0 16 16">
+					<path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z"/>
+				</svg>
+				<div><h3 data-target="63" class="count" style="display: inline-block;">0</h3><h3 style="display: inline-block;">h</h3></div>
+				<h6>UI Design</h6>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- ==========================================================================================================
-													  FEATURES
+												CONCLUSIONS
+	========================================================================================================== -->
+
+	<div id="conclusions" class="section">
+		<div class="container-counter">
+			<h1 class="heading">CONCLUSIONS</h1>
+			<div class="conclusions-container">
+				<div class="conclusionsItem">
+					<ul class="fadeIn wow animated" data-wow-delay="0.67s">
+						<li style="padding-top: 2%;">Ampliar el nostre coneixement en tecnologies pel desenvolupament de software.</li>
+						<li style="padding-top: 2%;">Ser conscients de les necessitats i requeriments d'un projecte de programació.</li>
+						<li style="padding-top: 2%;">Treballar en les dinàmiques de treball en grup, tant comuns en el món tecnològic.</li>
+					  </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ==========================================================================================================
+													  TEAM
 		 ========================================================================================================== -->
 
-	<div class="curved-bg-div wow animated fadeIn" data-wow-delay="0.15s"></div>
-	<div id="fh5co-features" class="fh5co-features-outer">
-		<div class="container">
-
-			<div class="row fh5co-features-grid-columns">
-
-				<div class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s">
-					<div class="col-sm-image-container">
-						<img class="img-float-left" src="img/smartphone-1.png" alt="smartphone-1">
-						<span class="span-new">NEW</span>
-						<span class="span-free">Free</span>
+	<div id="team" class="section">
+		<div class="fh5co-reviews-outer">
+			<h1>Team</h1>
+			<div class="container fh5co-reviews-inner">
+				<div class="row justify-content-center">
+					<div class="col-sm-3 testimonial-2 wow fadeIn animated" data-wow-delay="0.67s">
+						<img style="width: 100%;" src="img/denis_color.svg" alt="Quote 1">
+						<p class="testimonial-desc">QFem developer</p>
+						<small class="testimonial-author">Denis A.</small>
+					</div>
+					<div class="col-sm-3 testimonial-2 wow fadeIn animated" data-wow-delay="0.67s">
+						<img style="width: 100%;" src="img/gerard_color.svg" alt="Quote 1">
+						<p class="testimonial-desc">QFem developer</p>
+						<small class="testimonial-author">Gerard F.M.</small>
+					</div>
+					<div class="col-sm-3 testimonial-2 wow fadeIn animated" data-wow-delay="0.67s">
+						<img style="width: 100%;" src="img/aina_color.svg" alt="Quote 1">
+						<p class="testimonial-desc">QFem developer</p>
+						<small class="testimonial-author">Aina M.F.</small>
 					</div>
 				</div>
-
-				<div class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-					<h1>New Features</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
-					<span class="circle circle-first"><i class="fab fa-instagram"></i></span>
-					<span class="circle circle-middle"><i class="fab fa-facebook"></i></span>
-					<span class="circle circle-last"><i class="fab fa-twitter"></i></span>
-				</div>
-
-				<div class="col-sm-6 in-order-3 sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
-					<h1>REAL-TIME STATISTICS</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
-					<span class="circle circle-first"><i class="fas fa-star"></i></span>
-					<span class="circle circle-middle"><i class="far fa-star"></i></span>
-					<span class="circle circle-last"><i class="far fa-thumbs-up"></i></span>
-				</div>
-
-				<div class="col-sm-6 in-order-4 wow animated fadeInRight" data-wow-delay="0.22s">
-					<img class="img-float-right" src="img/smartphone-2.png" alt="smartphone-2">
-				</div>
-
-				<div class="col-sm-6 in-order-5 wow animated fadeInLeft" data-wow-delay="0.22s">
-					<div class="col-sm-image-container">
-						<img class="img-float-left" src="img/smartphone-2.png" alt="smartphone-3">
-						<span class="span-data">DATA</span>
-						<span class="span-percent">100%</span>
-					</div>
-				</div>
-				<div class="col-sm-6 in-order-6 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-					<h1>POWERFUL BACKEND</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
-					<span class="circle circle-first">95%</span>
-					<span class="circle circle-middle"><i class="fas fa-forward"></i></span>
-					<span class="circle circle-last"><i class="fab fa-github"></i></span>
-
-				</div>
-
-
-
-
-			</div> <!-- row -->
-
-
-		</div>
-	</div>
-
-
-	<!-- ==========================================================================================================
-													  REVIEWS
-		 ========================================================================================================== -->
-
-	<div id="fh5co-reviews" class="fh5co-reviews-outer">
-		<h1>What people are saying</h1>
-		<small>Reviews</small>
-		<div class="container fh5co-reviews-inner">
-			<div class="row justify-content-center">
-				<div class="col-sm-5 wow fadeIn animated" data-wow-delay="0.25s">
-					<img class="float-left" src="img/quotes-1.jpg" alt="Quote 1">
-					<p class="testimonial-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis similique quasi.</p>
-					<small class="testimonial-author">John Doe</small>
-					<img class="float-right" src="img/quotes-2.jpg" alt="Quote 2">
-				</div>
-				<div class="col-sm-5 testimonial-2 wow fadeIn animated" data-wow-delay="0.67s">
-					<img class="float-left" src="img/quotes-1.jpg" alt="Quote 1">
-					<p class="testimonial-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis similique quasi.</p>
-					<small class="testimonial-author">Someone</small>
-					<img class="float-right" src="img/quotes-2.jpg" alt="Quote 2">
-				</div>
 			</div>
-
 		</div>
 	</div>
 	
-
 	<!-- ==========================================================================================================
                                                  BOTTOM
     ========================================================================================================== -->
 
-	<div id="fh5co-download" class="fh5co-bottom-outer">
+	<div id="download" class="fh5co-bottom-outer">
 		<div class="overlay">
 			<div class="container fh5co-bottom-inner">
 				<div class="row">
 					<div class="col-sm-6">
 						<h1>How to download the app?</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque suscipit, similique animi saepe, ipsam itaque, tempore minus maxime pariatur error unde fugit tenetur.</p>
-						<a class="wow fadeIn animated" data-wow-delay="0.25s" href="#"><img class="app-store-btn" src="img/app-store-icon.png" alt="App Store Icon"></a>
-						<a class="wow fadeIn animated" data-wow-delay="0.67s" href="#"><img class="google-play-btn" src="img/google-play-icon.png" alt="Google Play Icon"></a>
+						<p>Incoming launch in popular app markets!</p>
+						<img class="app-store-btn wow fadeIn animated" data-wow-delay="0.25s" src="img/app-store-icon.png" alt="App Store Icon">
+						<img class="app-store-btn wow fadeIn animated" data-wow-delay="0.25s" src="img/google-play-icon.png" alt="Google Play Icon">
 					</div>
 				</div>
 			</div>
@@ -267,36 +308,20 @@
 
 			<div class="footer-three-grid wow fadeIn animated" data-wow-delay="0.66s">
 				<div class="column-1-3">
-					<h1>App</h1>
+					<h1>QFem?</h1>
 				</div>
 				<div class="column-2-3">
 					<nav class="footer-nav">
 						<ul>
-							<a href="#" onclick="$('#fh5co-hero-wrapper').goTo();return false;"><li>Home</li></a>
-							<a href="#" onclick="$('#fh5co-features').goTo();return false;"><li>Features</li></a>
-							<a href="#" onclick="$('#fh5co-reviews').goTo();return false;"><li>Reviews</li></a>
-							<a href="#" onclick="$('#fh5co-download').goTo();return false;"><li class="active">Download</li></a>
+							<a href="#" onclick="$('#fh5co-hero-wrapper').goTo();return false;"><li>-> Go up</li></a>
 						</ul>
 					</nav>
 				</div>
-				<div class="column-3-3">
-					<div class="social-icons-footer">
-						<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
-						<a href="https://freehtml5.co"><i class="fab fa-instagram"></i></a>
-						<a href="https://www.twitter.com/fh5co"><i class="fab fa-twitter"></i></a>
-					</div>
-				</div>
 			</div>
-
 			<span class="border-bottom-footer"></span>
-
-			<p class="copyright">&copy; 2018 App. All rights reserved. Design by <a href="https://freehtml5.co" target="_blank">FreeHTML5</a>.</p>
-
+			<p class="copyright">&copy; 2022 Anvil Group All rights reserved.</p>
 		</div>
 	</footer>
-
-
-
 
 </div> <!-- main page wrapper -->
 	

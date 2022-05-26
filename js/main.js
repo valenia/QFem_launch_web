@@ -56,3 +56,38 @@
 
 
 }());
+
+
+function animateCounter() {
+    const counters = document.querySelectorAll(".count");
+
+    counters.forEach((counter) => {
+    const updateCount = () => {
+        const target = parseInt(+counter.getAttribute("data-target"));
+        const count = parseInt(+counter.innerText);
+        const increment = 1;
+        // Math.trunc(target / speed);
+        console.log(increment);
+
+        if (count < target) {
+        counter.innerText = count + increment;
+        setTimeout(updateCount, 5);
+        } else {
+        count.innerText = target;
+        }
+    };
+    updateCount();
+    });
+}
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter();       
+      }
+    });
+  });
+  
+  observer.observe(document.querySelector('.count'));
+
+
